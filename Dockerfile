@@ -4,4 +4,5 @@ COPY pom.xml ./
 RUN mvn dependency:go-offline
 COPY . ./
 RUN mvn -o package
+RUN mvn -o verify
 
