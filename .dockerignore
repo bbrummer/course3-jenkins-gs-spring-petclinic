@@ -1,5 +1,6 @@
 Dockerfile
 .dockerignore
+output/*
 .git*
 target/*
 bin/*
